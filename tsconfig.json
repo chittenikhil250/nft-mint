@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": false,
+    "rootDirs": ["./src", "./scripts", "./test"],
+    "esModuleInterop": true
+  },
+  "exclude": ["dist", "node_modules"],
+  "include": ["./test", "./src", "./scripts", "env.d.ts"],
+  "files": ["./hardhat.config.ts"]
+}
